@@ -1,0 +1,65 @@
+let nome = window.document.getElementById ("nome")
+let email = document.querySelector("#email")
+let asssunto = document.querySelector("#assunto")
+nome.style.width ="100%"
+email.style.width="100%"
+function validanome()
+let txtnome = document.querySelector("#txtnome")
+let nomeok = false
+let email = false
+let asssunto = false
+let mapa = assunto=document.querySelector("#mapa")
+
+    
+if (nome.value.lenght < 2) {
+txtnome.innerHTML = "nome invalido"
+
+}else{
+txtnome.innerHTML ="nome valido"
+txtnome.color = "green"
+}
+
+function validaemail(){
+    let txtemail = document.querySelector("#txtemail")
+    if(email.value.indexof("@")==1 || email.value.indexof(".")==1){
+    txtemail.innerHTML="email invalido"
+    txtemail.style.color="red"
+    emailok = true
+
+}else{
+        txtemail.any.html="email invalido"
+        txtemail.style.color="green"
+    
+    }
+}
+
+function validaassunto(){
+    let txtassunto = document.querySelector("#txtassunto")
+    
+    
+    if(txtassunto.value.lenght >= 100){
+        txtassunto.innerHTML = "texto muito grande com o maximo de 100 caracterio"
+        txtassunto.style.color= "red"
+        txtassunto.style.display="block"
+        assuntook = true
+    }
+
+    
+}
+function enviar(){
+    if(nomeok == true && emailok == true && assuntook == true)
+  alert("formulario criado com sucesso")
+else{
+  alert("preenchar o formulario corretamente")
+}
+}
+function mapazoom(){
+    mapa.style.width = "700px"
+    mapa.style.heigth = "400px"
+}
+function mapanormal(){
+mapa.style.weidth= "350px"
+mapa.style.heigth= "400px"
+
+
+}

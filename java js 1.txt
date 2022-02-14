@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>futebol</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    
+
+  
+</head>
+<body>
+    <ul id = "menu">
+        <li >
+            <a href="index.html">home</a>
+        </li>
+        <li>
+            <a href="contato.html">contato</a>
+        </li>
+    </ul>
+    <h1 class="center"> o fuetebol no Brasil</h1>
+
+<div class = "container mb-500">
+    <div>
+        <p class="justify">
+            Por que o futebol é tão popular? 
+            O futebol tornou-se popular no Brasil
+             porque é um esporte que nunca precisou de equipamento próprio
+              para ser jogado, nem de uma determinada habilidade específica,
+               nem mesmo fardamento igual. Para jogar, basta ter pelo O futebol
+                ganhou muita popularidade no Brasil no século XX
+                também devido ao surgimento de grandes ídolos,
+                 como Artur Friedenreich, Leônidas, Garrincha, Pelé e Zico. 
+                 É a eles que se deve principalmente o crescimento da popularidade do futebol no Brasil.
+                  O futebol então se tornou uma mina de ouro no Brasil.
+    
+           <p>
+    
+        <p class="justify">
+            Por que o futebol é tão popular? 
+            O futebol tornou-se popular no Brasil
+             porque é um esporte que nunca precisou de equipamento próprio
+              para ser jogado, nem de uma determinada habilidade específica,
+               nem mesmo fardamento igual. Para jogar, basta ter pelo O futebol
+                ganhou muita popularidade no Brasil no século XX
+                também devido ao surgimento de grandes ídolos,
+                 como Artur Friedenreich, Leônidas, Garrincha, Pelé e Zico. 
+                 É a eles que se deve principalmente o crescimento da popularidade do futebol no Brasil.
+                  O futebol então se tornou uma mina de ouro no Brasil.
+    </div>
+    <div>
+    </p>
+    <img  class = "br-50 "src="assests/neymar.seleção.jpg" alt="seleção Brasileira">
+</div>
+
+    <h2 class = "cente">torcida canta a capela hino Brasileiro final copa das confedarações 2013</h2>
+
+<div class = "container">
+
+    <iframe width="560"
+    height="315" 
+    src="https://www.youtube.com/embed/Cem09f-7HVc" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+
+
+</div>
+   
+<footer>
+    
+
+
+</footer>
+
+</body>
+</html>
